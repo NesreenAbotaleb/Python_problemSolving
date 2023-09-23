@@ -2,6 +2,70 @@ import turtle
 
 turtle.speed(1000)
 turtle.hideturtle()
+
+#shahi-------------------------------
+
+turtle.bgcolor("azure")
+
+turtle.penup()
+turtle.begin_fill()
+turtle.fillcolor("#F3A7BB")
+turtle.goto(-300,100)
+turtle.color("#F3A7BB")
+turtle.pendown()
+turtle.circle(200)
+turtle.end_fill()
+turtle.penup()
+
+turtle.begin_fill()
+turtle.fillcolor("#FB7095")
+turtle.goto(-350,100)
+turtle.color("#FB7095")
+turtle.pendown()
+turtle.circle(150)
+turtle.end_fill()
+turtle.penup()
+
+turtle.begin_fill()
+turtle.fillcolor("#F75781")#DARKEST
+turtle.goto(-400,100)
+turtle.color("#F75781")
+turtle.pendown()
+turtle.circle(170,180)
+turtle.end_fill()
+turtle.penup()
+
+turtle.begin_fill()
+turtle.fillcolor("#F3A7BB")
+turtle.goto(300,-100)
+turtle.color("#F3A7BB")
+turtle.pendown()
+turtle.circle(170)
+turtle.end_fill()
+turtle.penup()
+
+turtle.begin_fill()
+turtle.fillcolor("#FB7095")
+turtle.goto(350,-100)
+turtle.color("#FB7095")
+turtle.pendown()
+turtle.circle(150)
+turtle.end_fill()
+turtle.penup()
+
+turtle.begin_fill()
+turtle.fillcolor("#F75781")
+turtle.goto(400,-100)
+turtle.color("#F75781")
+turtle.pendown()
+turtle.circle(170,180)
+turtle.end_fill()
+turtle.penup()
+turtle.home()
+
+
+#sama---------------------------------------
+
 turtle.penup()
 turtle.backward(150)
 turtle.left(90)
@@ -104,6 +168,7 @@ turtle.left(7+95)
 turtle.forward(85)
 turtle.end_fill()
 
+
 turtle.penup()
 turtle.forward(5)
 turtle.left(90)
@@ -115,6 +180,8 @@ turtle.left(90)
 turtle.color("#F75781")
 turtle.forward(38)
 turtle.write("Shop",font=("Pressure",16,'bold'))
+
+#Nesreen---------------------------------------------
 
 turtle.penup()
 turtle.color("#F75781")
@@ -282,5 +349,7 @@ turtle.circle(17)
 turtle.penup()
 turtle.forward(2)
 turtle.write("in" , font = ("Arial" , 14 , "bold") )
+
+turtle.done()
 ''''''
 
