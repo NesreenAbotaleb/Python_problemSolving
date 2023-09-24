@@ -9,58 +9,105 @@ turtle.bgcolor("azure")
 
 turtle.penup()
 turtle.begin_fill()
-turtle.fillcolor("#F3A7BB")
+turtle.fillcolor("#BBFEF0")#BBFAF0
+turtle.goto(20,80)
+turtle.color("#BBFEF0")#BBFAF0
+turtle.pendown()
+turtle.circle(100)
+turtle.end_fill()
+turtle.penup()
+turtle.home()
+
+
+turtle.penup()
+turtle.begin_fill()
+turtle.fillcolor("#BBFAF9")
+turtle.goto(300,100)
+turtle.color("#BBFAF9")
+turtle.pendown()
+turtle.circle(150)
+turtle.end_fill()
+turtle.penup()
+
+
+turtle.penup()
+turtle.begin_fill()
+turtle.fillcolor("#BBFAF9")
 turtle.goto(-300,100)
-turtle.color("#F3A7BB")
+turtle.color("#BBFAF9")
 turtle.pendown()
 turtle.circle(200)
 turtle.end_fill()
 turtle.penup()
 
 turtle.begin_fill()
-turtle.fillcolor("#FB7095")
+turtle.fillcolor("#BBFEF0")
 turtle.goto(-350,100)
-turtle.color("#FB7095")
+turtle.color("#BBFEF0")
 turtle.pendown()
 turtle.circle(150)
 turtle.end_fill()
 turtle.penup()
 
 turtle.begin_fill()
-turtle.fillcolor("#F75781")#DARKEST
+turtle.fillcolor("#BBDEF0")#BBFAF0
 turtle.goto(-400,100)
-turtle.color("#F75781")
+turtle.color("#BBDEF0")#BBFAF0
 turtle.pendown()
 turtle.circle(170,180)
 turtle.end_fill()
 turtle.penup()
 
 turtle.begin_fill()
-turtle.fillcolor("#F3A7BB")
+turtle.fillcolor("#BBDEF0")
 turtle.goto(300,-100)
-turtle.color("#F3A7BB")
+turtle.color("#BBDEF0")
 turtle.pendown()
 turtle.circle(170)
 turtle.end_fill()
 turtle.penup()
 
 turtle.begin_fill()
-turtle.fillcolor("#FB7095")
+turtle.fillcolor("#BBFEF0")
 turtle.goto(350,-100)
-turtle.color("#FB7095")
+turtle.color("#BBFEF0")
 turtle.pendown()
 turtle.circle(150)
 turtle.end_fill()
 turtle.penup()
 
 turtle.begin_fill()
-turtle.fillcolor("#F75781")
+turtle.fillcolor("#BBFAF9")#BBFAF0
 turtle.goto(400,-100)
-turtle.color("#F75781")
+turtle.color("#BBFAF9")#BBFAF0
 turtle.pendown()
 turtle.circle(170,180)
 turtle.end_fill()
 turtle.penup()
+turtle.home()
+
+turtle.begin_fill()
+turtle.fillcolor("#BBDEF0")
+turtle.right(180)
+turtle.forward(200)
+turtle.circle(150)
+turtle.end_fill()
+turtle.home()
+
+turtle.begin_fill()
+turtle.fillcolor("#BBFAF9")
+turtle.right(180)
+turtle.forward(150)
+turtle.circle(100)
+turtle.end_fill()
+turtle.home()
+
+turtle.begin_fill()
+turtle.fillcolor("#BBFEF0")#BBFAF0
+turtle.right(180)
+turtle.forward(100)
+turtle.circle(70)
+turtle.end_fill()
 turtle.home()
 
 
@@ -173,7 +220,7 @@ turtle.penup()
 turtle.forward(5)
 turtle.left(90)
 turtle.forward(50)
-turtle.color("#00A6A6")
+turtle.color("#BBDEF0")
 turtle.write("Gift",font=("Pressure",16,'bold'))
 turtle.forward(3)
 turtle.left(90)
@@ -181,20 +228,21 @@ turtle.color("#F75781")
 turtle.forward(38)
 turtle.write("Shop",font=("Pressure",16,'bold'))
 
+
 #Nesreen---------------------------------------------
 
 turtle.penup()
 turtle.color("#F75781")
-turtle.goto(50,230)
+turtle.goto(-10,190)#50,230
 turtle.write("Login" , font=("Arial" ,20 , 'bold'))
 
-turtle.color("#00A6A6")
-turtle.fillcolor("#00A6A6")
-turtle.goto(50,210)
+turtle.color("azure")
+turtle.fillcolor("azure")
+turtle.goto(-20,180)#50,210
 
-turtle.begin_fill()
-turtle.pendown()
-turtle.left(180)
+#turtle.begin_fill()
+#turtle.pendown()
+'''turtle.left(180)
 turtle.circle(18,90)
 turtle.right(365)
 turtle.forward(300)
@@ -204,16 +252,16 @@ turtle.circle(18,90)
 turtle.forward(300)
 turtle.circle(18,90)
 turtle.forward(200)
-turtle.end_fill()
-
-turtle.penup()
-turtle.goto(50, 170)
-turtle.color('white')
+#turtle.end_fill()'''
+turtle.right(185)
+#turtle.penup()
+turtle.goto(-20, 140)#50,170
+turtle.color('#F3A7BB')
 turtle.write("Username or Email" , font = ('Arial' , 10))
-turtle.goto(70,160)
+turtle.goto(0,130)#70,160
 
 turtle.pendown()
-turtle.fillcolor("white")
+turtle.fillcolor("#F3A7BB")
 turtle.begin_fill()
 turtle.pensize(5)
 turtle.circle(15,90)
@@ -228,29 +276,29 @@ turtle.forward(160)
 turtle.end_fill()
 turtle.penup()
 
-turtle.goto(70,152)
-turtle.fillcolor("#EFCA08")
+turtle.goto(0,122)#70,152
+turtle.fillcolor("#FB7095")
 turtle.begin_fill()
 turtle.circle(4)
 turtle.end_fill()
 
-turtle.goto(70, 142)
-turtle.fillcolor("#EFCA08")
+turtle.goto(0, 112)#70,142
+turtle.fillcolor("#FB7095")
 turtle.begin_fill()
 turtle.circle(7,steps = 3)
 turtle.end_fill()
 turtle.penup()
 
-turtle.goto(80,136)
-turtle.color("#EFCA08")
+turtle.goto(10,106)#80,136
+turtle.color("#FB7095")
 turtle .write("Enter your usernsme or your email" , font= ("Arial" , 7))
 
-turtle.goto(50, 90)
-turtle.color('white')
+turtle.goto(-20, 60)#50,90
+turtle.color('#F3A7BB')
 turtle.write("Password" , font = ('Arial' , 10))
-turtle.goto(70,80)
+turtle.goto(0,50)#70,80
 turtle.pendown()
-turtle.fillcolor("white")
+turtle.fillcolor("#F3A7BB")
 turtle.begin_fill()
 turtle.pensize(5)
 turtle.circle(15,90)
@@ -265,11 +313,11 @@ turtle.forward(160)
 turtle.end_fill()
 turtle.penup()
 
-turtle.goto(70 ,65)
+turtle.goto(0 ,35)#70,65
 #turtle.right(180)
 turtle.pendown()
-turtle.fillcolor("#EFCA08")
-turtle.color("#EFCA08")
+turtle.fillcolor("#FB7095")
+turtle.color("#FB7095")
 turtle.right(90)
 turtle.circle(3,180)
 turtle.pensize(3)
@@ -287,17 +335,17 @@ turtle.forward(12)
 turtle.end_fill()
 
 turtle.penup()
-turtle.goto(84,58)
-turtle.color("#EFCA08")
+turtle.goto(14,28)#84,58
+turtle.color("#FB7095")
 turtle.write("Enter your passward" , font= ("Arial" , 7))
 
-turtle.goto(165,30)
+turtle.goto(95,0)#165,30
 turtle.color("#F49F0A")
 turtle.write("forgot my password?" , font= ("Arial" , 6))
 
-turtle.goto(100,10)
-turtle.color("#F08700")
-turtle.fillcolor("#F08700")
+turtle.goto(30,-20)#100,10
+turtle.color("#FB7095")
+turtle.fillcolor("#FB7095")
 turtle.begin_fill()
 turtle.pendown()
 turtle.circle(7,80)
@@ -313,16 +361,17 @@ turtle.forward(100)
 turtle.end_fill()
 turtle.penup()
 
-turtle.goto(130,-10)
-turtle.color("white")
+turtle.goto(60,-40)#130,-10
+turtle.color("azure")
 turtle.write("Login" , font = ("Arial" , 10 , "bold"))
 
-turtle.goto(90,-30)
+turtle.color("#F49F0A")
+turtle.goto(20,-60)#90,-30
 turtle.write("I don\'t have an acount" , font = ("Arial" , 6))
-turtle.goto(165,-30)
+turtle.goto(95,-60)#165,-30
 turtle.write("|Sign up" , font = ("Arial" , 7 , "bold"))
 
-turtle.goto(100,-50)
+turtle.goto(30,-80)#100,-50
 turtle.pendown()
 turtle.circle(17)
 turtle.penup()
@@ -331,7 +380,7 @@ turtle.left(90)
 turtle.forward(34)
 turtle.write("f" , font = ("Arial" , 20 , "bold") )
 
-turtle.goto(130, -68)
+turtle.goto(60, -98)#130,-68
 turtle.pendown()
 turtle.circle(17)
 turtle.penup()
@@ -352,4 +401,3 @@ turtle.write("in" , font = ("Arial" , 14 , "bold") )
 
 turtle.done()
 ''''''
-
